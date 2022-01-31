@@ -1,0 +1,176 @@
+{
+    'logStreamName': '2021/12/18/[$LATEST]ef6a3768ecf041728888d31a8b4d2b3f', 
+    'timestamp': 1639822580902, 
+    'message': 'LambdaContext(
+        [
+            aws_request_id=252af71d-6f2e-4c2e-8c37-160f5b0b37da,log_group_name=/aws/lambda/dsp,log_stream_name=2021/12/18/[$LATEST]ef6a3768ecf041728888d31a8b4d2b3f,function_name=dsp,memory_limit_in_mb=128,function_version=$LATEST,invoked_function_arn=arn:aws:lambda:ap-south-1: 244921077328:function:dsp,client_context=None,identity=CognitoIdentity(
+                [
+                    cognito_identity_id=None,cognito_identity_pool_id=None
+                ]
+            )
+        ]) {
+            \'version\': \'2.0\', 
+            \'routeKey\': \'ANY /dsp\', 
+            \'rawPath\': \'/dsp\', 
+            \'rawQueryString\': \'\', 
+            \'headers\': {
+                \'content-length\': \'1415\', 
+                \'content-type\': \'application/json\', 
+                \'host\': \'o9zgdepne8.execute-api.ap-south-1.amazonaws.com\', 
+                \'user-agent\': \'Amazon CloudFront\', 
+                \'via\': \'1.1 4c18e6ed879a674305cb5156731cf397.cloudfront.net (CloudFront)\', 
+                \'x-amz-cf-id\': \'2QEWzI3GmgHk-Y7vvkbq-YsM6aQUTupS_WTngs_oqlkhsO8plV2GHw==\', 
+                \'x-amzn-trace-id\': \'Root=1-61bdb4f4-42d835f20c1157a90015c6a7\', 
+                \'x-forwarded-for\': \'147.75.39.15, 130.176.28.148\', 
+                \'x-forwarded-port\': \'443\', 
+                \'x-forwarded-proto\': \'https\'
+            }, 
+            \'requestContext\': {
+                \'accountId\': \'244921077328\', 
+                \'apiId\': \'o9zgdepne8\', 
+                \'domainName\': \'o9zgdepne8.execute-api.ap-south-1.amazonaws.com\', 
+                \'domainPrefix\': \'o9zgdepne8\', 
+                \'http\': {
+                    \'method\': \'POST\', 
+                    \'path\': \'/dsp\', 
+                    \'protocol\': \'HTTP/1.1\', 
+                    \'sourceIp\': \'147.75.39.15\', 
+                    \'userAgent\': \'Amazon CloudFront\'
+                }, 
+                \'requestId\': \'Kik2SirUBcwEP1Q=\', 
+                \'routeKey\': \'ANY /dsp\', 
+                \'stage\': \'$default\', 
+                \'time\': \'18/Dec/2021: 10: 16: 20 +0000\', 
+                \'timeEpoch\': 1639822580887
+            }, 
+            \'body\': \'{
+                "id": "A8um9-rpcQ4ZE9K7e4zaa4bNQod_loHt",
+                "at": 1,
+                "tmax": 450,
+                "device": {
+                    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15",
+                    "geo": {
+                        "lat": 51.3873,
+                        "lon": -0.1596,
+                        "country": "GBR"
+                    },
+                    "dnt": 0,
+                    "ip": "109.249.185.46",
+                    "h": 1024,
+                    "w": 768,
+                    "js": 1,
+                    "language": "en"
+                },
+                "badv": [
+                    "whitehouse.com"
+                ],
+                "imp": [
+                    {
+                        "id": "2084b09d016a1da75",
+                        "banner": {
+                            "format": [
+                                {
+                                    "w": 300,
+                                    "h": 600
+                                }
+                            ],
+                            "w": 300,
+                            "h": 600,
+                            "pos": 0,
+                            "topframe": 1,
+                            "battr": [
+                                9
+                            ]
+                        },
+                        "tagid": "slide_rail_sticky",
+                        "bidfloor": 0.531,
+                        "bidfloorcur": "USD",
+                        "secure": 1
+                    }
+                ],
+                "site": {
+                    "id": "39f43a",
+                    "name": "gameskinny.com",
+                    "domain": "www.gameskinny.com",
+                    "cat": [
+                        "IAB9",
+                        "IAB9-30",
+                        "IAB19-29"
+                    ],
+                    "page": "https://www.gameskinny.com/efybx/top-20-minecraft-118-seeds-for-november-2021",
+                    "ref": "https://www.google.co.uk",
+                    "publisher": {
+                        "id": "39f43a",
+                        "name": "gameskinny.com",
+                        "domain": "gameskinny.com"
+                    }
+                },
+                "user": {
+                    "geo": {
+                        "lat": 51.3873,
+                        "lon": -0.1596,
+                        "country": "GB"
+                    },
+                    "ext": {
+                        "eids": [
+                            {
+                                "source": "pubcid.org",
+                                "uids": [
+                                    {
+                                        "id": "9667d557-e153-41f0-999f-50ee40380931",
+                                        "atype": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "source": "adserver.org",
+                                "uids": [
+                                    {
+                                        "id": "0f90d632-8b56-4b75-8914-ee4e595a116a",
+                                        "atype": 1,
+                                        "ext": {
+                                            "rtiPartner": "TDID"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "cur": [
+                    "USD"
+                ],
+                "regs": {
+                    "coppa": 0,
+                    "ext": {
+                        "gdpr": 0,
+                        "us_privacy": "1---"
+                    }
+                },
+                "source": {
+                    "tid": "21e7954d-f585-4bd3-9277-1486a119dc20",
+                    "ext": {
+                        "schain": {
+                            "ver": "1.0",
+                            "complete": 1,
+                            "nodes": [
+                                {
+                                    "asi": "pubwise.io",
+                                    "sid": "39f43a",
+                                    "hp": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ext": {
+                    "pubwise": {
+                        "pbbidder": {
+                            "version": "0.2.0"
+                        }
+                    }
+                }
+            }\', 
+            \'isBase64Encoded\': False
+        }\n', 'ingestionTime': 1639822586103, 'eventId': '36569265547492370820017852637599748139396481398978248749'
+    }
